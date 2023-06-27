@@ -1,0 +1,168 @@
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@font-face {
+    font-family: Josefin;
+    src: url(Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url(Nunito/Nunito-VariableFont_wght.ttf);
+}
+
+
+body {
+    background-color: #E4E2E2;
+    height: 100%;
+    font-family: Nunito;
+    color: black;
+}
+
+a {
+    color: #7A0101;
+}
+
+a:hover {
+    color: #000;
+}
+
+/*#description-accueil {
+    margin-top: 150px;
+    font-style: italic;
+    font-size: 20px;
+}*/
+
+#section-footer {
+    text-align: center;
+    background-color: #D9D8D8;
+    padding: 20px;
+    font-size: 12px;
+    bottom: 0%;
+}
+
+#section-un h1 {
+    text-align: center;
+    padding-top: 10%;
+    font-size: 50px;
+
+}
+
+#section-un,
+#section-deux {
+    padding-top: 8%;
+    padding-bottom: 1%;
+
+}
+
+
+#section-trois {
+    height: 100%;
+    background-color: #a59f9f;
+}
+
+
+#btn-ensavoirplus {
+    margin: auto;
+    margin-bottom: 15px;
+    width: 20%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    background-color: #7A0101;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-color: #7A0101;
+    transition-duration: 500ms;
+}
+
+
+
+#btn-ensavoirplus:hover {
+    border-style: solid;
+    border-width: 1px;
+    background-color: #310202;
+    border-color: #310202;
+
+}
+
+.divprevention-texte {
+    opacity: 0;
+    text-align: justify;
+}
+
+.divprevention {
+    padding: 50px;
+}
+
+.divprevention-img-right {
+    opacity: 0;
+    text-align: center;
+    /*margin-left: 300px;*/
+    margin: auto;
+
+}
+
+.divprevention-img-left {
+    opacity: 0;
+    margin: auto;
+    text-align: center;
+    /*margin-left: -300px;*/
+
+
+}
+
+.explications {
+    padding: 70px;
+    margin: auto;
+
+}
+
+.exp-texte {
+    margin: auto;
+    text-align: justify;
+}
+
+.reflexes {
+    box-shadow: 1px 1px 12px #555;
+    margin: 50px;
+    padding: 50px;
+}
+
+.reflexes img {
+    height: 50px;
+    width: 50px;
+}
+
+.reflexes h2 {
+    margin-bottom: 30px;
+}
+
+.step {
+    margin-bottom: 20px;
+    ;
+}
+
+
+
+.step-texte {
+    margin: auto;
+}
+
+
+.animation-fade {
+    animation: fadein 4s;
+}
